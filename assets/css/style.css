@@ -2,7 +2,9 @@
 
 body {
     font-family: 'Abril Fatface', cursive 'Changa One', 'Lato', sans-serif;
+    font-weight: 300;
     margin: 0;
+    background-color:rgb(255, 152, 120)
 }
 
 #home {
@@ -16,12 +18,12 @@ body {
 
 h1 {
     font-size: 500%;
-    text-align: left;
+    text-align: right;
     letter-spacing: 20px;
-    color: rgb(243, 123, 87);
+    color: rgb(255, 152, 120);
     text-decoration: none;
-    padding-top: 300px;
-    padding-left: 30px;
+    padding-top: 350px;
+    padding-right: 30px;
 }
 
 a:link { 
@@ -35,4 +37,11 @@ a:hover {
 }
 a:active { 
     text-decoration: none; 
+}
+
+nav {
+    font-size: 200%;
+    text-align: center;
+    letter-spacing: 20px;
+    text-transform: uppercase;
 }
