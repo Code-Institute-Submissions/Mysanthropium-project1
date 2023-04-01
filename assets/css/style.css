@@ -24,7 +24,7 @@ body {
 h1 {
     font-size: 500%;
     text-align: right;
-    letter-spacing: 20px;
+    letter-spacing: 12px;
     color: rgb(255, 152, 120);
     text-decoration: none;
     padding-top: 350px;
@@ -39,7 +39,7 @@ h1 {
 
 nav {
     font-size: 200%;
-    letter-spacing: 20px;
+    letter-spacing: 12px;
     text-transform: uppercase;
 }
 
@@ -61,14 +61,14 @@ footer {
     text-align: center;
     color: whitesmoke;
     font-size: 180%;
-    letter-spacing: 20px;
+    letter-spacing: 12px;
     text-transform: uppercase;
 }
 
 footer > a {
     font-size: 110%;
     color: whitesmoke;
-    letter-spacing: 20px;
+    letter-spacing: 12px;
 }
 
 .links {
