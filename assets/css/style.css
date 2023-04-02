@@ -169,14 +169,16 @@ h3 {
 /* Delicious Fruits page */
 
 #gallery-images {
-    border-top: 2px solid rgb(255, 152, 120);
     padding-top: 25px;
     margin-top: 25px;
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0px;
+    border-top: 2px solid rgb(255, 152, 120);
 }
+
+
 
 
 
