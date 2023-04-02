@@ -5,6 +5,9 @@ body {
     font-weight: 300;
     margin: 0;
     background-color:whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #heading {
@@ -57,6 +60,7 @@ footer {
     background-color: rgb(255, 152, 120);
     margin-top: 10%;
     height: 150px;
+    margin-top: auto;
 }
 
 #socials {
