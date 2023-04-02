@@ -10,6 +10,8 @@ body {
     flex-direction: column;
 }
 
+/* Logo */
+
 #heading {
     background-image: url(../images/tropical-fruits2.jpeg);
     background-repeat: no-repeat;
@@ -36,6 +38,8 @@ h1 {
     text-transform: uppercase;
 }
 
+/* Navigation menu */
+
 #menu a {
     text-decoration: none;
     color: rgb(255, 152, 120);
@@ -55,6 +59,8 @@ nav {
 #menu a:hover {
     border-bottom: 2px solid rgb(255, 152, 120);
 }
+
+/* Footer */
 
 footer {
     background-color: rgb(255, 152, 120);
