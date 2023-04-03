@@ -137,7 +137,7 @@ h3 {
     padding-top: 10px;
 }
 
-#circle-container {
+.circle-container {
     width: 200px;
     height: 200px;
     padding: 5px;
@@ -148,31 +148,31 @@ h3 {
     margin: 0 auto;
 }
 
-#circle-pineapple {
+.circle-pineapple {
     background: url('../images/pineapple200.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#circle-banana {
+.circle-banana {
     background: url('../images/banana3.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#circle-passion-fruit {
+.circle-passion-fruit {
     background: url('../images/passionfruit.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#circle-dragon-fruit {
+.circle-dragon-fruit {
     background: url('../images/dragonfruit.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#circle-kiwi {
+.circle-kiwi {
     background: url('../images/kiwi.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
