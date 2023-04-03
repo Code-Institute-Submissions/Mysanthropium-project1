@@ -6,7 +6,7 @@ body {
     margin: 0;
     background-color:whitesmoke;
     min-height: 100vh;
-    display: column;
+    display: flex;
     flex-direction: column;
 }
 
@@ -294,6 +294,10 @@ label {
         text-align: center;
         margin-top: 30px;
     }
+
+    footer {
+        height: 200px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -304,6 +308,16 @@ label {
     #list h3 {
         text-align: center;
         margin-top: 30px;
+    }
+
+    footer {
+        height: 220px;
+    }
+}
+
+@media (min-width: 1235px) and (max-width: 1280px) {
+    h1 {
+        padding-top: 300px;
     }
 }
     
