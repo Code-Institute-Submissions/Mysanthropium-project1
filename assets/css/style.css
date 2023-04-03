@@ -60,6 +60,12 @@ nav {
     border-bottom: 2px solid rgb(255, 152, 120);
 }
 
+/* Audio file */
+
+.audio-file {
+    float: right;
+}
+
 /* Footer */
 
 footer {
