@@ -252,6 +252,10 @@ label {
     margin-bottom: 25px;
 }
 
+#favourite-fruit {
+    color: rgba(0, 0, 0, 0.562);
+}
+
 /* Media queries for 1250px and down */
 
 @media screen and (max-width: 1250px) {
