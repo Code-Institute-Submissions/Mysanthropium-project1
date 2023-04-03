@@ -256,29 +256,38 @@ label {
     color: rgba(0, 0, 0, 0.562);
 }
 
-/* Media queries for 1250px and down */
-
-@media screen and (max-width: 1250px) {
+@media (max-width: 1280px) {
+  
     h1 {
-        text-align: center;
-        font-size: 700%;
-        padding-top: 200px;
+        max-width: 100%;
     }
+    
 }
 
-/* Media queries for 960px and down */
-
-@media screen and (max-width: 960px) {
-    h1 {
-        text-align: center;
-        font-size: 500%;
-        padding-top: 250px;
-    }
-
-    #gallery-images {
-        column-count: 2;
-    }
+@media (max-width: 1024px) {
+  
+    /* CSS */
+    
 }
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  
+    /* CSS */
+    
+}
+
+@media (max-width: 767px) {
+  
+    /* CSS */
+    
+}
+
+@media (max-width: 480px) {
+  
+    /* CSS */
+    
+}
+    
 
 
 
