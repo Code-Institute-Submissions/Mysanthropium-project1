@@ -269,6 +269,10 @@ label {
         text-align: center;
         margin-top: 30px;
     }
+
+    #menu {
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -281,13 +285,26 @@ label {
         text-align: center;
         margin-top: 30px;
     }
+
+    #menu {
+        font-size: 20px;
+        display: grid;
+        text-align: center;
+    }
+    
+    .audio-file {
+        padding-left: 32%;
+        margin-top: 15px;
+    }
+
+    
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     h1 {
         text-align: center;
-        padding-top: 300px;
-        font-size: 400%;
+        padding-top: 30px;
+        font-size: 450%;
     }
 
     #list h3 {
@@ -298,12 +315,25 @@ label {
     footer {
         height: 200px;
     }
+
+    #menu {
+        font-size: 20px;
+        display: grid;
+        text-align: center;
+    }
+
+    .audio-file {
+        padding-left: 25%;
+        margin-top: 15px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
     h1 {
         text-align: center;
-        font-size: 200%;
+        font-size: 235%;
+        padding-top: 30px;
+        padding-left: 25px;
     }
     #list h3 {
         text-align: center;
@@ -313,13 +343,26 @@ label {
     footer {
         height: 220px;
     }
-}
 
-@media (min-width: 1235px) and (max-width: 1280px) {
-    h1 {
-        padding-top: 300px;
+    #menu {
+        font-size: 15px;
+        text-align: center;
+        display: grid;
+        margin-top: 10px;
+    }
+
+    .audio-file {
+        padding-left: 10%;
+        margin-top: 15px;
+    }
+
+    p {
+        max-width: 100%;
+        padding-left: 1px;
     }
 }
+
+
     
 
 
