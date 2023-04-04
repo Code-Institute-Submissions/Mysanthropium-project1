@@ -273,6 +273,10 @@ label {
     #menu {
         font-size: 30px;
     }
+
+    img {
+        max-width: 100%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -297,7 +301,9 @@ label {
         margin-top: 15px;
     }
 
-    
+    img {
+        max-width: 100%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -325,6 +331,14 @@ label {
     .audio-file {
         padding-left: 25%;
         margin-top: 15px;
+    }
+
+    .gallery-images {
+        display: grid;
+    }
+
+    img {
+        max-width: 100%;
     }
 }
 
@@ -359,6 +373,14 @@ label {
     p {
         max-width: 100%;
         padding-left: 1px;
+    }
+
+    .gallery-images {
+        display: grid;
+    }
+
+    img {
+        max-width: 100%;
     }
 }
 
