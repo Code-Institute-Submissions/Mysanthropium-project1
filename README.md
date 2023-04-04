@@ -1,108 +1,112 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Tropical Fruits
 
-Welcome Rasmus Persson,
+Tropical Fruits is a simple site that can be used to read about the nutritions of exotic fruits of the world. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+You can also look at some nice images in the gallery section and fill in a form to let us know what's your favourite fruit.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+You'll also get some nice background audio of waves when browsing this site.
 
-## Gitpod Reminders
+![Screenshot of my AMI to see its responsivness](assets/images/AMI.jpg)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Features
 
-`python3 -m http.server`
+If you love tropical fruits, this site is for you. It provides you with some information about the nutriotional benefits, some delicious images and a contact page to fill in a form to let us know about you and your love for fruits.
 
-A blue button should appear to click: _Make Public_,
+## Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+* Navigation Bar
+  - The navigation bar is responsive on each page on the site, clicking the logo will take you to the home page.
+  - It makes the user able to navigate throughout the site from each of the pages easily.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Screenshot of the navigation bar](assets/images/navbar.jpg)
 
-A blue button should appear to click: _Make Public_,
+* The landing page image
+  - This includes an image of some tropical fruits and a logo of Tropical Fruits.
+  - You can click this image or logo to get to the home page whichever page you're on.
 
-Another blue button should appear to click: _Open Browser_.
+![Screenshot of the home page image and logo](assets/images/homepagelogo.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* List of fruits
+  - In this list you can read about some fruits and its nutriotional information.
 
-To log into the Heroku toolbelt CLI:
+![Screenshot of the list of fruits](assets/images/listoffruits.jpg)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Audio player
+  - This audio player will autoplay sounds of waves whenever you enter the site.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Screenshot of the audio player](assets/images/audioplayer.jpg)
 
-------
+* Footer
+  - This is the footer of the page, it lets the user know that we're on social media and that they can click on the links to get to the pages in new tabs.
 
-## Release History
+![Screenshot of the footer](assets/images/Footer.jpg)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Delicious Fruits page
+  - This site will give the user some nice images of fruits.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Screenshot of the image gallery in delicious fruits page](assets/images/fruitspage.jpg)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* Contact us page
+  - This page will allow the user to get in touch with us to let us know more about them, what fruits they like and if they want, more information about their connection to tropical fruits.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Screenshot of the form on the contact page](assets/images/Contactpage.jpg)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Future Feature ideas
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* Add more fruits to the list of fruits and its nutriotions.
+* Add additional information of each fruit, some recipes for smoothies etc.
+* Add more images to the Delicious Fruits gallery.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Different browser and screen sizes test
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Browsers
+  - Google Chrome
+    - Works well, no errors.
+  - Mozilla Firefox
+    - Works well, no errors.
+  - Microsoft Edge
+    - Works well, no errors.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Screen sizes 
+  - I've used chrome devtools to help manage the media queries for most of the devices devtools provide for this site.
+  - I've also used my own mobile phone to really help me with the media queries.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Validator testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* HTML
+  - No errors when using [W3C validator](https://validator.w3.org/nu/#textarea)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* CSS
+  - Just one error occured when using CSS validator, the font im using is not a font-family value. But its working so im using it anyway [W3C validator](https://jigsaw.w3.org/css-validator/validator)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Deployment
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* I used GitHub pages to deploy this site. Here are the steps i used:
+  - Navigate to the settings tab in the repository.
+  - Open the pages section and use the drop-down menu in the branch part and select Main Branch.
+  - Once its selected, refresh the page to see its been a successful deployment.
 
-------
+Link to the live page can be found here: [Link to Tropical Fruits website](https://mysanthropium.github.io/project1/index.html)
 
-## FAQ about the uptime script
+# Credits
 
-**Why have you added this script?**
+## Content
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* The fonts I used for the site are from [Google Fonts](https://fonts.google.com/)
+* The underline look idea for the nav bar was taken from the Love Running tutorial.
+* The idea for the circle images in the fruits list I got from the Love Running tutorial.
 
-**How will this affect me?**
+## Media
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* The idea for the image gallery in delicious fruits page I got from the Love Running tutorial, I tried to play around with image grids aswell but I really liked the look of the gallery.
+* All photos on the webpage was taken from [Pexels](https://www.pexels.com/search/free/)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
