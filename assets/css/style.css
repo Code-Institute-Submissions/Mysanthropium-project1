@@ -277,6 +277,11 @@ label {
     img {
         max-width: 100%;
     }
+
+    #contact-form-box {
+        width: 95%;
+        margin-left: 30px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -303,6 +308,11 @@ label {
 
     img {
         max-width: 100%;
+    }
+
+    #contact-form-box {
+        width: 95%;
+        margin-left: 25px;
     }
 }
 
@@ -339,6 +349,11 @@ label {
 
     img {
         max-width: 100%;
+    }
+
+    #contact-form-box {
+        width: 95%;
+        margin-left: 15px;
     }
 }
 
@@ -381,6 +396,11 @@ label {
 
     img {
         max-width: 100%;
+    }
+
+    #contact-form-box {
+        width: 95%;
+        margin-left: 10px;
     }
 }
 
