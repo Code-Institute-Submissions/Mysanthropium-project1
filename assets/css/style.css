@@ -257,7 +257,7 @@ label {
     color: rgba(0, 0, 0, 0.562);
 }
 
-/* Media queries */
+/* Media queries, this was a rough one for me to figure out, took me a while to make it work */
 
 @media (min-width: 1281px) {
     body {
