@@ -32,7 +32,7 @@ If you love tropical fruits, this site is for you. It provides you with some inf
 ![Screenshot of the list of fruits](assets/images/listoffruits.jpg)
 
 * Audio player
-  - This audio player will autoplay sounds of waves whenever you enter the site.
+  - This audio player will give the user an option to play sounds of waves whenever you enter the site.
 
 ![Screenshot of the audio player](assets/images/audioplayer.jpg)
 
