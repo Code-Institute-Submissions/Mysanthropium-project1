@@ -259,6 +259,12 @@ label {
 
 /* Media queries */
 
+@media (min-width: 1281px) {
+    body {
+        width: 100%;
+    }
+}
+
 @media (min-width: 1025px) and (max-width: 1280px) {
     h1 {
         text-align: center;
@@ -284,7 +290,11 @@ label {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        width: 100%;
+    }
+    
     h1 {
         text-align: center;
         padding-top: 200px;
