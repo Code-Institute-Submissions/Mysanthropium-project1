@@ -269,6 +269,7 @@ label {
     h1 {
         text-align: center;
         padding-top: 200px;
+        padding-left: 20px;
     }
 
     #list h3 {
@@ -282,6 +283,7 @@ label {
 
     img {
         max-width: 100%;
+        padding-left: 5px;
     }
 
     #contact-form-box {
@@ -298,11 +300,17 @@ label {
     h1 {
         text-align: center;
         padding-top: 200px;
+        padding-left: 25px;
     }
 
     #list h3 {
         text-align: center;
         margin-top: 30px;
+    }
+
+    p {
+        max-width: 100%;
+        padding-left: 10px;
     }
 
     #menu {
@@ -318,11 +326,12 @@ label {
 
     img {
         max-width: 100%;
+        padding-left: 4px;
     }
 
     #contact-form-box {
         width: 95%;
-        margin-left: 25px;
+        margin-left: 20px;
     }
 }
 
@@ -336,6 +345,11 @@ label {
     #list h3 {
         text-align: center;
         margin-top: 30px;
+    }
+
+    p {
+        max-width: 100%;
+        padding-left: 10px;
     }
 
     footer {
@@ -359,6 +373,7 @@ label {
 
     img {
         max-width: 100%;
+        padding-left: 5px;
     }
 
     #contact-form-box {
@@ -377,10 +392,15 @@ label {
     #list h3 {
         text-align: center;
         margin-top: 30px;
+        font-size: 110%;
     }
 
     footer {
         height: 220px;
+    }
+
+    #socials {
+        font-size: 130%;
     }
 
     #menu {
@@ -391,13 +411,14 @@ label {
     }
 
     .audio-file {
-        padding-left: 10%;
+        padding-left: 3%;
         margin-top: 15px;
     }
 
     p {
         max-width: 100%;
-        padding-left: 1px;
+        padding-left: 0px;
+        font-size: 10px;
     }
 
     .gallery-images {
@@ -406,6 +427,8 @@ label {
 
     img {
         max-width: 100%;
+        padding-left: 4px;
+        padding-right: 1px;
     }
 
     #contact-form-box {
